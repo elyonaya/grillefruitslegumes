@@ -1,0 +1,89 @@
+* {
+    margin:0;
+    padding:0;
+    font-weight: normal;
+}
+
+body {
+    height: 100vh;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+}
+
+section>div {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+section>div img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+section ul {
+    list-style: none;
+}
+
+section ul li a {
+    font-size: x-large;
+    color: darkgrey;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 10px;
+}
+
+section ul li a:hover {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.up img {
+    transition: 2s;
+}
+
+.up nav:hover {
+    transform: translate( 0, -180px);
+}
+
+.down img {
+    transition: 2s;
+}
+
+.down nav:hover {
+    transform: translate( 0, 180px);
+}
+
+.left img {
+    transition: 2s;
+}
+
+.left nav:hover {
+    transform: translate( -180px, 0);
+}
+
+.right img {
+    transition: 2s;
+}
+
+.right nav:hover {
+    transform: translate( 180px, 0);
+}
