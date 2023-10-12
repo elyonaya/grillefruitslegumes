@@ -60,7 +60,7 @@ section ul li a:hover {
     transition: 2s;
 }
 
-.up nav:hover {
+.up img:hover {
     transform: translate( 0, -180px);
 }
 
@@ -68,7 +68,7 @@ section ul li a:hover {
     transition: 2s;
 }
 
-.down nav:hover {
+.down img:hover {
     transform: translate( 0, 180px);
 }
 
@@ -76,7 +76,7 @@ section ul li a:hover {
     transition: 2s;
 }
 
-.left nav:hover {
+.left img:hover {
     transform: translate( -180px, 0);
 }
 
@@ -84,6 +84,6 @@ section ul li a:hover {
     transition: 2s;
 }
 
-.right nav:hover {
+.right img:hover {
     transform: translate( 180px, 0);
 }
